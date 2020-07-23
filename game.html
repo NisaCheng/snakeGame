@@ -1,0 +1,53 @@
+<!-- 
+game.html
+
+This code displays what you see when you first load https://t1-snakesquad-completed.glitch.me/game.html, which 
+is mostly a HTML5 canvas (that the game will appear on). It relies on game.css for styling and game.js for interactivity. 
+
+You don't need to make any changes here. 
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/game.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <h1 id="headerTitle">
+      SNAKE SQUAD!  
+        <img class="snakeLogo" src="https://cdn.glitch.com/09e29afe-0f34-4921-a3b6-34b18d41cdf7%2Fsnake%20(1).svg?v=1595307574473"> 
+        
+  </h1>  
+  
+  <h4 id="counter">
+    Score: <span id="count">0</span> 
+  </h4>
+  
+
+  
+<div id="gameCanvas">
+
+      
+      <canvas width="650" height="600" id="game">
+   
+      </canvas>
+    <div style="display:none;"> <!-- These are hidden elements that we will display in game.js --> 
+    <img id="avatar" src="https://mdn.mozillademos.org/files/5397/rhino.jpg" width="300" height="227">
+</div>
+</div>
+<footer> 
+ <p>
+   nisacheng@gmail.com
+  </p>
+  Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> 
+  from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+<br>
+
+<a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by freepik - www.freepik.com</a>
+</footer>
+<script src="/game.js" defer></script>
+</body>
+</html> 
