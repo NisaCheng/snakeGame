@@ -1,0 +1,62 @@
+  html, body {
+    height: 100%;
+    margin: 0;
+    background: url("https://cdn.glitch.com/09e29afe-0f34-4921-a3b6-34b18d41cdf7%2F2613088.jpg?v=1595307211899") no-repeat fixed center;
+    font-family: 'Press Start 2P', cursive;
+  }
+
+#headerTitle {
+  color: white;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+h4 {
+  color: white;
+  margin-left: 32%;
+}
+
+#count {
+  letter-spacing: 0.2em
+  font-size: 1.2vw;
+}
+
+.snakeLogo {
+  width: 4%;
+}
+
+#gameCanvas {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+  canvas {
+    border: 1px solid white;
+    background-color: black;
+  }
+
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  margin-top: 2%;
+  width: 100%;
+  font-size: 0.7vw;
+}
+
+footer,a {
+  color: white;
+  text-decoration: none;
+}
+
+
+@media screen and (max-width: 950px) {
+  
+  .snakeLogo {
+  width: 5%;
+  }
+
+
+}
